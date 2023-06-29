@@ -3,7 +3,7 @@ import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
 
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=c78117c5";
+const API_URL = "http://www.omdbapi.com?apikey=c78117c5";
 
 
 
@@ -20,7 +20,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    searchMovies("spiderman");
+    searchMovies("Harry Potter");
   }, []);
 
   return (
